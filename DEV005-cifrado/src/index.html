@@ -4,11 +4,34 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="cipher.js"></script>
+    
   </head>
   <body>
     <div id="root">
-      <h1>Hello world2!</h1>
+      <h1>Bienvenido</h1>
+      <h2>Ingrese Mensaje a cifrar</h2>
+  
+      <p>
+        <br><br>
+        <input type="text" id="textooriginal" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();">
+        <br><br>
+        <span style="text-transform:uppercase;"></span>
+  
+     <h3>Offset</h3>
+     <input id="espaciado" type="desplazamientober"> 
+     
+     <form>
+      <button onclick=CifrarMsj()>Click Aquí para ver resultado</button>
+  </form>
+</P>
+     <h4>Descifrado De Mensaje</h4>
+<input type="text"> 
+
+
     </div>
+  
+  
     <script src="index.js" type="module"></script>
   </body>
 </html>
