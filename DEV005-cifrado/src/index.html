@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="index.js" type="module"></script>
+  <script languaje="JavaScript">
+  function txNombres() {
+  if ((event.keyCode != 32) && (event.keyCode < 65) || (event.keyCode > 90) && (event.keyCode < 97) || (event.keyCode > 122))
+   event.returnValue = false;
+ }
+  </script>
 
 </head>
 
@@ -17,8 +24,8 @@
     <h2>Ingrese Mensaje a cifrar</h2>
     <p>
       <br><br>
-      <input type="text" id="textooriginal" style="text-transform:uppercase;" value=""
-        onkeyup="javascript:this.value=this.value.toUpperCase();">
+      <input type="text" id="textooriginal" style="text-transform:uppercase;" value="" onkeypress="txNombres()"
+      onkeyup="javascript:this.value=this.value.toUpperCase();">
       <br><br>
       <span style="text-transform:uppercase;"></span>
     <h3>Desplazamiento</h3>
@@ -28,7 +35,7 @@
       <button id="btn-enviar">Enviar</button>
       <button id="btn-borrar">Borrar</button><br><br>
       <h3>Resultado</h3>
-      <input id="result" type="text">
+      <input id="result" type="text" style="text-transform:uppercase;">
     
 
     </p>
@@ -37,7 +44,7 @@
     <br>
     <p>
       <br><br>
-      <input type="text" id="textodescifrado" style="text-transform:uppercase;" value=""
+      <input type="text" id="textodescifrado" style="text-transform:uppercase;" value="" onkeypress="txNombres()"
       onkeyup="javascript:this.value=this.value.toUpperCase();">
 
       <br><br>
@@ -57,7 +64,7 @@
     </p>
 
   </div>
-  <script src="index.js" type="module"></script>
+  
 </body>
 
 </html>

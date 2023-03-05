@@ -9,12 +9,11 @@ En criptografía, el cifrado César, también conocido como cifrado por desplaza
  Basicamente estara enfocado a usuarios que deseen realizar retiros de avances de tarjeta de credito sin necesidad de tener la  tarjeta a la mano, con el fin  de evitar las largas filas por este proceso se busca que el usuario realice el proceso de forma autonoma mediante el uso de cajeros automaticos, el cifrado permite que personas autorizadas vean toda la información que envíe, ya sea por un mensaje o en un correo electrónico, cambie su forma y sólo pueda ser descifrada por el destinatario correcto. De esta forma, cuando envías el mensaje cifrado, el mismo viaja protegido mediante fórmulas matemáticas o lógicas. Así sólo puede ser decodificado por el destinatario, ya que sólo él y el remitente tendrán los códigos o claves necesarias para descifrarlos y leerlos.
  
  Cuáles son los objetivos de estos usuarios en relación con tu producto?
- Agilidad en los servicios
- Transmitir información segura
- Confidencialidad
- Autogestion en el proceso
+ * Agilidad en los servicios
+ * Transmitir información segura
+ * Confidencialidad
+ * Autogestion en el proceso
 
- 
 Cómo crees que el producto que estás creando está resolviendo sus problemas?
-Permita que los usuario eviten realizar largas filas para realizar el proceso en agencia, asi pueden hacerlo desde casa y retirar por medio de los cajero automaticos.
+Ayuda a un mejor manejo de la informacion ya que permite cifrar el mensaje que se desea enviar y que solo pueda ser visto por destinatario elegido, ademas permite que los usuario eviten realizar largas filas para realizar el proceso en agencia, asi pueden hacerlo desde casa y retirar por medio de los cajero automaticos.
 

@@ -1,5 +1,8 @@
 import cipher from  './cipher.js';
 
+
+
+
 //Llamar elementos del DOM usando selectores del DOM
 const btnEnviar = document.getElementById('btn-enviar')
 const btnBorrar = document.getElementById('btn-borrar')
@@ -47,4 +50,4 @@ btnborrar2.addEventListener('click',vaciarCajastestd)
 //export default cipher;
 // export { CifrarMsjTest, DescifrarMsjTest,VaciarCajastest, VaciarCajastestd}
 
-console.log(cipher)
+//console.log(cipher)
