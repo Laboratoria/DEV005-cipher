@@ -12,7 +12,7 @@ const btnborrar2 =document.getElementById('btn-borrar2')
 //funciones
 
 function cifrarMsjTest() {
-  //console.log('hola soy la función cifrarMsjTest')  
+    
   const palabra = document.getElementById("textooriginal").value;
   const desplazamiento = document.getElementById("espaciado").value;
   const palabracifrada = cipher.encode(desplazamiento,palabra);
@@ -23,7 +23,7 @@ function cifrarMsjTest() {
 
 function descifrarMsjTest() {
   const palabra = document.getElementById("textodescifrado").value;
-  // const desplazamiento = (-1)* (document.getElementById("espaciadod").value);
+
   const desplazamiento = document.getElementById("espaciadod").value
   const palabracifrada = cipher.decode(desplazamiento,palabra);
   document.getElementById("resultd").value = palabracifrada;
