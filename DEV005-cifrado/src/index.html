@@ -5,14 +5,12 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
-  
   <script languaje="JavaScript">
- function validaMayuscula() {
-  if ((event.keyCode != 32) && (event.keyCode < 65) || (event.keyCode > 90) && (event.keyCode < 97) || (event.keyCode > 122))
-   event.returnValue = false;
- }
-  </script>
-
+    function validaNumbercaracter() {
+     if ((event.key != 32) && (event.key < 65) || (event.key > 90) && (event.key < 97) || (event.key > 122))
+       event.returnValue = false;
+     }
+      </script>
 </head>
 
 <body>
@@ -24,7 +22,7 @@
     <h2>Ingrese Mensaje a cifrar</h2>
     <p>
       <br><br>
-      <input type="text" id="textooriginal" style="text-transform:uppercase;" value="" onkeypress="validaMayuscula()"
+      <input type="text" id="textooriginal" style="text-transform:uppercase;" value="" onkeypress="validaNumbercaracter()" 
       onkeyup="javascript:this.value=this.value.toUpperCase();">
       <br><br>
       <span style="text-transform:uppercase;"></span>
@@ -44,7 +42,7 @@
     <br>
     <p>
       <br><br>
-      <input type="text" id="textodescifrado" style="text-transform:uppercase;" value="" onkeypress="validaMayuscula()"
+      <input type="text" id="textodescifrado" style="text-transform:uppercase;" value="" onkeypress="validaNumbercaracter()"
       onkeyup="javascript:this.value=this.value.toUpperCase();">
 
       <br><br>
