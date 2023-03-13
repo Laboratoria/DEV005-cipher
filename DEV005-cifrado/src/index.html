@@ -1,68 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
-  <script languaje="JavaScript">
-    function validaNumbercaracter() {
-     if ((event.key != 32) && (event.key < 65) || (event.key > 90) && (event.key < 97) || (event.key > 122))
-       event.returnValue = false;
-     }
-      </script>
+   
 </head>
-
-<body>
-  <div id="root">
-    <br><br>
-    
-    <br><br> 
+<body>   
+  <header>
     <h1>Bienvenido</h1>
-    <h2>Ingrese Mensaje a cifrar</h2>
-    <p>
-      <br><br>
-      <input type="text" id="textooriginal" style="text-transform:uppercase;" value="" onkeypress="validaNumbercaracter()" 
-      onkeyup="javascript:this.value=this.value.toUpperCase();">
-      <br><br>
-      <span style="text-transform:uppercase;"></span>
-    <h3>Desplazamiento</h3>
-    <input id="espaciado" type="number" >
+  </header>
+  <main>
+    <article class="cifrar"> 
+     
+      <label for="name">Ingrese Mensaje a Cifrar </label>   
+      <input type="text" id="textooriginal" style="text-transform:uppercase;" value="" 
+             onkeyup="javascript:this.value=this.value.toUpperCase();">
+      
+      <label for="name">Desplazamiento</label>
+      <input id="espaciado" type="number" name="espaciado">
   
-      <br>
-      <button id="btn-enviar">Enviar</button>
-      <button id="btn-borrar">Borrar</button><br><br>
-      <h3>Resultado</h3>
+      <button name="button" id="btn-enviar">Enviar</button>
+      <button name="button" id="btn-borrar">Borrar</button>
+      
+      <label for="name">Resultado</label>
       <input id="result" type="text" style="text-transform:uppercase;">
     
+      <label for="name">Descifrado De Mensaje</label>
+      <input type="text" id="textodescifrado" style="text-transform:uppercase;" value="" 
+             onkeyup="javascript:this.value=this.value.toUpperCase();">
 
-    </p>
-   <br>
-    <h4>Descifrado De Mensaje</h4>
-    <br>
-    <p>
-      <br><br>
-      <input type="text" id="textodescifrado" style="text-transform:uppercase;" value="" onkeypress="validaNumbercaracter()"
-      onkeyup="javascript:this.value=this.value.toUpperCase();">
-
-      <br><br>
-  <span style="text-transform:uppercase;"></span>
-
-      <h3>Desplazamiento</h3>
-    <input id="espaciadod" type="number" >
+      <label for="name">Desplazamiento</label>
+      <input id="espaciadod" type="number" name="espaciadod">
   
-    
-      <br>
-      <button id="btn-descifrar">Enviar</button>
-      <button id="btn-borrar2">Borrar</button><br><br>
-      <h3>Resultado</h3>
+      <button name="button" id="btn-descifrar">Enviar</button>
+      <button name="button" id="btn-borrar2">Borrar</button>
+     
+      <label for="name">Resultado</label>
       <input id="resultd" type="text">
-      
-      
-    </p>
-
-  </div>
-  <script src="index.js" type="module"></script>
+  
+      <script src="index.js" type="module"></script> 
+    </article>
+  </main>
+<footer> 
+  <p>Realizado por: Brina Garófalo</p> 
+</footer> 
 </body>
-
 </html>

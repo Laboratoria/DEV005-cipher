@@ -2,49 +2,54 @@ body {
   background-image: url(https://linube.com/blog/wp-content/uploads/encriptar-cifrar.png);
   text-align: center;
   font-family: sans-serif;
- 
+  justify-content: center;
 }
-h1 {
-  padding: 10px;
-  text-align: center;
-  color: rgb(3, 9, 12);
-  padding-top: 100px;
-  font-size: 5rem;
-  font-family: sans-serif;
+
+header {
+  display: grid;
+  justify-content: center;
+  width: 60%;
+  margin: 10%;
+  background-color: rgba(143, 182, 211, 0.422);
+  padding: 2%;
+  border: 1px solid rgb(231 183 183 / 3%);
+  font-size: 60px;
 }
-#container {
-  padding: 10;
-  text-align: center;
-  color: rgb(0, 13, 15);
+article{
+  display: grid;
+  justify-content: center;
+  width: 60%;
+  margin: 10%;
+  background-color: rgba(143, 182, 211, 0.422);
+  padding: 2%;
+  border: 1px solid rgb(231 183 183 / 3%);
 }
 button {
-  background: rgb(3, 124, 210);
-  color: rgb(0, 13, 15);
+
+  background: rgba(111, 207, 239, 0.627);
   margin: 10px;
   padding: 10px;
   border: 50;
+  font-size: 40px;
+  border-radius: 10px;
+  color: rgba(58, 58, 91, 0.996);
+  width: 180px;
+  height:60px;
+  margin-left: auto;
+  margin-right: auto;
 }
-h2 {
+label {
   font-family: "arial", sans-serif;
-  color: rgb(0, 13, 15);
-  font-size: 2.5rem;
+  color: rgb(4, 50, 57);
+  font-size: 40px;
+  margin: 5px; 
 }
-h3 {
-  font-family: "arial", sans-serif;
-  color: rgb(0, 13, 15);
-  font-size: 2.5rem;
-}
-h4 {
-  font-family: "arial", sans-serif;
-  color: rgb(18, 5, 17);
-  font-size: 2.5rem;
-}
-legend {
-  color: hsl(0, 0%, 0%);
-  padding: 20px;
-  font-weight: bold;
-}
-script {
-  color: rgb(0, 13, 15);
 
+input {
+  font-family: "arial", sans-serif;
+  color:azure(0, 13, 15);
+  font-size: 40px;
+  margin:20%;
 }
+
+
